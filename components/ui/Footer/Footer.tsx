@@ -3,7 +3,7 @@ import { LucideFacebook, LucideInstagram } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-[#595D67] ">
+    <footer className="w-full bg-[#595D67] shadow-[0_-10px_25px_#595D67]">
       <div className="container mx-auto flex flex-col xl:flex-row gap-5 p-5 font-instrumentSerif text-xl">
         <div className="w-full xl:w-1/3 flex gap-10 flex-col text-white p-10">
           <p>

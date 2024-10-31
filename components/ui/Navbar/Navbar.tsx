@@ -81,7 +81,7 @@ const Navbar = ({ children }: NavbarProps) => {
         </div>
 
         {isOpen && (
-          <div className="md:hidden w-full flex flex-col items-center p-4 space-y-4 animate-fadeIn">
+          <div className="md:hidden w-full flex flex-col items-center p-4 space-y-4 animate-fadeIn shadow-[0_5px_5px_#595D67]">
             {MENU_ITEMS.map((item) => (
               <NavButton key={item.link} item={item} onClick={toggleMenu} />
             ))}
